@@ -18,5 +18,31 @@ EnvBuilder is a tool designed to analyze Python and Jupyter files to extract dep
 
 2. Navigate to the project directory:
 
-```bash
+   ```bash
    cd EnvBuilder
+
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+1. Run the application:
+   
+   ```bash
+   python envbuilder.py
+    ```
+2. Use the GUI to select a Python or Jupyter file.
+3. Choose the output type ( pip or conda ) and generate the environment file.
+4. Save the generated environment file or create a virtual environment directly from the application.
+   
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+For any questions or suggestions: elishahjohn9@gmail.com
+   
+
