@@ -15,3 +15,8 @@ EnvBuilder is a tool designed to analyze Python and Jupyter files to extract dep
 
    ```bash
    git clone https://github.com/yourusername/envbuilder.git
+
+2. Navigate to the project directory:
+
+```bash
+   cd envbuilder
