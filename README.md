@@ -4,10 +4,13 @@ EnvBuilder is a tool designed to analyze Python and Jupyter files to extract dep
 
 ## Features
 
-- Analyze Python and Jupyter files to extract dependencies.
+- Analyze Python (`.py`) and Jupyter (`.ipynb`) files to extract dependencies.
 - Generate `requirements.txt` for pip or `environment.yml` for conda.
 - Create virtual environments with the extracted dependencies.
-- User-friendly GUI with dark theme support.
+- User-friendly GUI with configuration options.
+- Automatically maps popular import aliases (e.g., `cv2`, `plt`, `np`) to real package names.
+
+> 🗂️ **Note**: The environment file is saved in the **same directory as the analyzed file** by default. This path can be changed through the GUI settings.
 
 ## Installation
 
