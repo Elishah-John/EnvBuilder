@@ -59,7 +59,7 @@ class EnvBuilder:
         }
 
         self.standard_libs = {
-            "tkinter", "os", "ast", "importlib", "nbformat", 
+            "tkinter", "os", "ast", "importlib",  
             "pickle", "random", "datetime", "time", "json", 
             "csv", "math", "re", "sys", "collections", 
             "itertools", "functools", "io", "pathlib", "shutil",
