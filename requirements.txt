@@ -1,0 +1,3 @@
+tkinter
+nbformat
+importlib-metadata
