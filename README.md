@@ -40,7 +40,7 @@ EnvBuilder is a tool designed to analyze Python and Jupyter files to extract dep
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the CC-BY-SA-4.0 license. See the LICENSE file for details.
 
 ## Contact
 For any questions or suggestions: elishahjohn9@gmail.com
