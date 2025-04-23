@@ -46,6 +46,18 @@ EnvBuilder is a tool designed to analyze Python and Jupyter files to extract dep
 numpy==1.24.2
 matplotlib==3.6.3
 opencv-python==4.5.5.64
+```
+
+### `environment.yml`
+```yaml
+name: env
+channels:
+  - conda-forge
+dependencies:
+  - numpy=1.24.2
+  - matplotlib=3.6.3
+  - opencv=4.5.5.64
+```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
