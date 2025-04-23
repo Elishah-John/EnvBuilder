@@ -38,12 +38,20 @@ EnvBuilder is a tool designed to analyze Python and Jupyter files to extract dep
 2. Use the GUI to select a Python or Jupyter file.
 3. Choose the output type ( pip or conda ) and generate the environment file.
 4. Save the generated environment file or create a virtual environment directly from the application.
-   
+
+## 📂 Output Examples
+
+### `requirements.txt`
+```ini
+numpy==1.24.2
+matplotlib==3.6.3
+opencv-python==4.5.5.64
+
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
 ## License
-This project is licensed under the CC-BY-SA-4.0 license. See the LICENSE file for details.
+This project is licensed under the Apache 2.0 license. See the LICENSE file for details.
 
 ## Contact
 For any questions or suggestions: elishahjohn9@gmail.com
